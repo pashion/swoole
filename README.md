@@ -11,7 +11,7 @@ swoole服务器目录/server
 
 平滑重启服务器/server sh reload.sh
 
-
+nginx配置参考/server/nginxConfig
 
 ~~~
 ThinkPHP5.1对底层架构做了进一步的改进，减少依赖，其主要特性包括：
