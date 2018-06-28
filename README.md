@@ -1,6 +1,19 @@
 ThinkPHP 5.1RC1
 ===============
 
+php >= 5.6.0
+
+基于Nginx做服务分发，适配th5.1框架的swoole直播赛况，聊天室项目
+
+swoole服务器目录/server
+
+开启服务器/server php websocket.php
+
+平滑重启服务器/server sh reload.sh
+
+
+
+~~~
 ThinkPHP5.1对底层架构做了进一步的改进，减少依赖，其主要特性包括：
 
  + 采用容器统一管理对象
